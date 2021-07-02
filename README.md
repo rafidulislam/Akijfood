@@ -1,5 +1,7 @@
 # Akijfood
-Crud operation with C# and Dot Net Core API . Suppose you have a Database dbAkijFood with a table named tblColdDrinks. tblColdDrinks contains 4 columns: intColdDrinksId(Identity Column), strColdDrinksName(nvarchar),numQuantity(decimal), numUnitPrice(decimal)
+Crud operation with C# and Dot Net Core API.
+
+Suppose you have a Database dbAkijFood with a table named tblColdDrinks. tblColdDrinks contains 4 columns: intColdDrinksId(Identity Column), strColdDrinksName(nvarchar),numQuantity(decimal), numUnitPrice(decimal)
 
 API 01: Insert Mojo (Quantity 575, Unit Price 15)
 
