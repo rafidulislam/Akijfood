@@ -39,7 +39,7 @@ namespace Akijfood.Controllers
             return Ok(await _coldDrinkRepository.UpdateDrink(tblColdDrinks));
         }
 
-        [HttpDelete]
+        [HttpDelete("DeleteSpeed")]
         public async Task<ActionResult> DeleteProduct()
         {
             await _coldDrinkRepository.DeleteDrink();
